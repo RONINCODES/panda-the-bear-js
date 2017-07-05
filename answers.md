@@ -48,10 +48,12 @@ Find a way to select the round icons in the sidebar and then change their colour
 
 Scroll down to the contact form. Change the placeholder attribute of the name field to "identify yourself".
 1) var field = document.querySelector('input[placeholder=Name]') --> select
-2) field.placeholder = "Identify Yourself"  --> change 
+2) field.placeholder = "Identify Yourself"  --> change
 
 Change the placeholder attribute of the message field to "state your business".
-
+1)  var message = document.querySelector('textarea[placeholder=Message]')  --> select
+2)  message.placeholder='State Your Business'
+"State Your Business"
 Give the name field a "value" attribute of "your nemesis".
 
 Change the value attribute of the email field to "koalathebear@gmail.com".
