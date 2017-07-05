@@ -24,7 +24,7 @@ Select the heading that says "Employment" and change it to something else. (hint
 1) var employ = document.querySelector('#employment')  --> select the object with id employment - which is the box that contains all the info
 2) var info = employ.querySelector('.info-title')  --> select the title 'employment'
 3) var icon = info.querySelector('.icon-suitcase')  --> select the suitcase icon
-4)  info.innerHTML = icon.outerHTML + '  Unemployed' --> change the innerHTML of var info using concatination of icon.outerHTML and the string Unemployed. 
+4)  info.innerHTML = icon.outerHTML + '  Unemployed' --> change the innerHTML of var info using concatination of icon.outerHTML and the string Unemployed.
 
 1) var employment = document.querySelector('#employment').querySelector('.info-title')
 (not finished)
@@ -42,6 +42,9 @@ Change the font family of the h1 to 'monospace'.
 
 
 Find a way to select the round icons in the sidebar and then change their colour.
+1) var circle = document.querySelectorAll('.action-icon-bg')  -> select
+2)for (var index = 0; index < circle.length; index++) {
+    circle[index].style.background='pink'} -->iterate through items and change them to pink
 
 Scroll down to the contact form. Change the placeholder attribute of the name field to "identify yourself".
 
