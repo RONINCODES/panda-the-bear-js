@@ -56,11 +56,14 @@ Change the placeholder attribute of the message field to "state your business".
 "State Your Business"
 Give the name field a "value" attribute of "your nemesis".
 1) var field = document.querySelector('input[placeholder=Name]').setAttribute("value", "Your Nemesis")
-undefined 
+undefined
 
 Change the value attribute of the email field to "koalathebear@gmail.com".
+1) var email = document.querySelector('input[placeholder=Email]').setAttribute("value", "koalathebear@gmail.com")
+
 
 Change the value of the submit button on the contact form to "En garde!".
+1) var submit = document.querySelector('input[type=Submit]').setAttribute("value", "En Garde")
 
 We should stop Koala from sending an email to Panda that they might regret! Find a way to disable the submit button (hint: familiarize yourself with the disabled attribute).
 
