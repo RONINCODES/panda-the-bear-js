@@ -17,6 +17,8 @@ Use the same approach to select the element that contains the photo of the sky a
 
 
 Select the heading that says "Panda the Bear" and change it to your own name.
+1) var title = document.querySelector('h1[class="highlight"]')
+2) title.innerText = "Ronen Annason"
 
 Select the heading that says "Employment" and change it to something else. (hint: use a descendant selector)
 
