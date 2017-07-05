@@ -22,7 +22,13 @@ Select the heading that says "Panda the Bear" and change it to your own name.
 
 Select the heading that says "Employment" and change it to something else. (hint: use a descendant selector)
 
+1) var employment = document.querySelector('#employment').querySelector('.info-title')
+(not finished)
+
 Change the colour of the body.
+1)var body = document.querySelector('body')
+2) body.style.background='red'
+
 
 Change the colour used by the highlight class.
 
