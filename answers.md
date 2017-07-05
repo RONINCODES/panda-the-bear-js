@@ -21,6 +21,10 @@ Select the heading that says "Panda the Bear" and change it to your own name.
 2) title.innerText = "Ronen Annason"
 
 Select the heading that says "Employment" and change it to something else. (hint: use a descendant selector)
+1) var employ = document.querySelector('#employment')  --> select the object with id employment - which is the box that contains all the info
+2) var info = employ.querySelector('.info-title')  --> select the title 'employment'
+3) var icon = info.querySelector('.icon-suitcase')  --> select the suitcase icon
+4)  info.innerHTML = icon.outerHTML + '  Unemployed' --> change the innerHTML of var info using concatination of icon.outerHTML and the string Unemployed. 
 
 1) var employment = document.querySelector('#employment').querySelector('.info-title')
 (not finished)
