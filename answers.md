@@ -33,6 +33,9 @@ Change the colour of the body.
 Change the colour used by the highlight class.
 
 Change the font family of the h1 to 'monospace'.
+1) var mono = document.querySelector('h1')
+2) mono.style.fontFamily = 'monospace'
+
 
 Find a way to select the round icons in the sidebar and then change their colour.
 
