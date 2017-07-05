@@ -47,6 +47,8 @@ Find a way to select the round icons in the sidebar and then change their colour
     circle[index].style.background='pink'} -->iterate through items and change them to pink
 
 Scroll down to the contact form. Change the placeholder attribute of the name field to "identify yourself".
+1) var field = document.querySelector('input[placeholder=Name]') --> select
+2) field.placeholder = "Identify Yourself"  --> change 
 
 Change the placeholder attribute of the message field to "state your business".
 
