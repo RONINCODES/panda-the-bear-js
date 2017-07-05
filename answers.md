@@ -6,13 +6,15 @@ PROTIP: use the inspector to learn the dimensions of the current profile image a
 
 2) change the src attirbute to point to a different picture
   var image = document.querySelector('.profile-image')
-  image.src = "https://placebear.com/400/400" 
-
-
+  image.src = "https://placebear.com/400/400"
 
 
 
 Use the same approach to select the element that contains the photo of the sky and change the src attribute to another picture URL of your choosing.
+1) var skyImage = document.querySelector('img[title="Man Walking on Ice"]')
+2) skyImage.src = "https://placebear.com/325/225"
+
+
 
 Select the heading that says "Panda the Bear" and change it to your own name.
 
