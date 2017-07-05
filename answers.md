@@ -66,5 +66,6 @@ Change the value of the submit button on the contact form to "En garde!".
 1) var submit = document.querySelector('input[type=Submit]').setAttribute("value", "En Garde")
 
 We should stop Koala from sending an email to Panda that they might regret! Find a way to disable the submit button (hint: familiarize yourself with the disabled attribute).
+1) var submit = document.querySelector('input[type=Submit]').disabled = true
 
 We should help Panda protect their privacy by clearing their personal details from the sidebar. You can use reset() to do this.
