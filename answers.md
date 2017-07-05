@@ -55,6 +55,8 @@ Change the placeholder attribute of the message field to "state your business".
 2)  message.placeholder='State Your Business'
 "State Your Business"
 Give the name field a "value" attribute of "your nemesis".
+1) var field = document.querySelector('input[placeholder=Name]').setAttribute("value", "Your Nemesis")
+undefined 
 
 Change the value attribute of the email field to "koalathebear@gmail.com".
 
