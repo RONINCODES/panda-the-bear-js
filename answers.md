@@ -69,3 +69,24 @@ We should stop Koala from sending an email to Panda that they might regret! Find
 1) var submit = document.querySelector('input[type=Submit]').disabled = true
 
 We should help Panda protect their privacy by clearing their personal details from the sidebar. You can use reset() to do this.
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Panda the Bear is lying about their skills! Take the "time travel" skill off the page to satisfy your personal sense of justice. We'll remove it by accessing the parentElement of the Panda skill and using remove().
+1) var time = document.querySelector('#time-travel').remove()
+
+That drawing of Pikachu is really cute. Let’s duplicate it using cloneNode() and insert it at the bottom of the .portfolio-container using insertAdjacentHTML() or appendChild().
+
+1)  var pika2 = document.querySelector('img[title=Pikachu]')   --> select picture
+2)  var pika3 = pika2.cloneNode(true)  --> clone pic and set clone to variable pika3
+3)  var container = document.querySelector('.portfolio-container')  -object to variable
+4)  container.insertAdjacentElement('afterend', pikachu2) --> moving the clone
+
+Wow, that was so satisfying I think we should do it 10 more times. Use a for loop to help you do this.
+
+ 1)for (var index = 0; index < 10; index++) {
+ pikachu = document.querySelector('img[title=Pikachu]').cloneNode();container.insertAdjacentElement('afterend', pikachu)}
+
+Let’s add a message about when the page was last updated. We'll do this by appending a new <li> element to the <ul> in the sidebar (you might need to refresh the page to bring back the list items that we emptied out earlier).
+
+var listItem = document.createElement('li');
